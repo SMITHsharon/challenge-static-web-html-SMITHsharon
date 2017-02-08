@@ -5,23 +5,24 @@
 body {
 	background-color: #A1C5D1;
 	color: #135C8A;
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Jaldi', sans-serif;
+}
+
+h3 {
+	font-size: 1.5em;
 }
 
 #profile {
-	display: block;
-	margin: 100px;
+	margin: 50px;
 
 }
 
 #mainHead {
 	font-weight: 900;
-	/*float-right;*/
+	display: inline-block;
+	padding-left: 25px;
 }
 
-img {
-	display: inline;
-}
 
 /****************************************/
 /* COLUMNS for Bio and Links
@@ -41,7 +42,7 @@ img {
 
 .colRight {
 	width: 30%;
-	height: 400px;
+	height: 550px;
 	overflow: auto;
 }
 
